@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,28 @@
     <link rel="stylesheet" href="../src/output.css">
     <link rel="stylesheet" href="../src/style.css">
 </head>
+
 <body class="bg-[#f0f0f0] w-screen overflow-x-hidden">
     <div class="fixed top-0 left-0 w-full z-50">
         <nav class="relative w-full md:w-11/12 mx-auto md:mt-6 max-w-[1280px]">
             <div
                 class="flex flex-row items-center justify-center md:justify-between rounded-none md:rounded-2xl p-2 sm:px-8 md:py-4 bg-[#025d0eaa] backdrop-blur-sm">
-                <div class="flex flex-row items-center gap-4">
-                    <div class="flex items-center">
-                        <div class="w-14 md:w-16">
-                            <img src="https://upload.wikimedia.org/wikipedia/th/thumb/b/b7/MJU_LOGO.svg/270px-MJU_LOGO.svg.png"
-                                alt="ตรามหาวิทยาลัยแม่โจ้" class="w-full h-full object-contain">
+                <a href="../index.html">
+                    <div class="flex flex-row items-center gap-4">
+                        <div class="flex items-center">
+                            <div class="w-14 md:w-16">
+                                <img src="https://upload.wikimedia.org/wikipedia/th/thumb/b/b7/MJU_LOGO.svg/270px-MJU_LOGO.svg.png"
+                                    alt="ตรามหาวิทยาลัยแม่โจ้" class="w-full h-full object-contain">
+                            </div>
+                        </div>
+                        <div class="text-white">
+                            <p class="text-base sm:text-md md:text-lg hidden md:block">งานทะเบียนและสถิตินักศึกษา</p>
+                            <p class="text-sm sm:text-md md:text-lg hidden md:block">สำนักบริหารและพัฒนาวิชาการ
+                                มหาวิทยาลัยแม่โจ้</p>
+                            <p class="text-sm md:hidden">งานทะเบียน มหาวิทยาลัยแม่โจ้</p>
                         </div>
                     </div>
-                    <div class="text-white">
-                        <p class="text-base sm:text-md md:text-lg hidden md:block">งานทะเบียนและสถิตินักศึกษา</p>
-                        <p class="text-sm sm:text-md md:text-lg hidden md:block">สำนักบริหารและพัฒนาวิชาการ
-                            มหาวิทยาลัยแม่โจ้</p>
-                        <p class="text-sm md:hidden">งานทะเบียน มหาวิทยาลัยแม่โจ้</p>
-                    </div>
-                </div>
+                </a>
                 <div class="flex items-center justify-center gap-4 text-white text-center">
                     <button type="button" id="dropdown-toggle"
                         class="cursor-pointer hidden md:block border-2 py-4 px-2 rounded-lg hover:scale-105 duration-200 ease-in-out hover:bg-[#0e1e10] border-[#067615] hover:border-[#0e1e10] hover:shadow-md">เมนูเพิ่มเติม</button>
@@ -35,25 +39,21 @@
                 class="absolute right-0 h-0 overflow-hidden transition-[height] duration-400 ease-out bg-[#025d0eaa] md:rounded-2xl backdrop-blur-sm mt-0 md:mt-4 border-0">
                 <ul
                     class="w-screen md:w-fit md:flex md:flex-col gap-2 p-8 text-center md:text-left grid grid-cols-1 sm:grid-cols-2">
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="../index.html"
-                            class="block px-4 py-2 bg-[#2b7947] text-white rounded-lg">หน้าหลัก
-                            </a>
-                    </li>
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
-                            class="block px-4 py-2 bg-[#7dd157] text-white rounded-lg">item 2 Lorem, ipsum
-                            </a>
+                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="study_table.html"
+                            class="block px-4 py-2 bg-[#7dd157] text-white rounded-lg">ตารางเรียน
+                        </a>
                     </li>
                     <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
                             class="block px-4 py-2 bg-[#025d0e] text-white rounded-lg">item 3 Lorem, ipsum
-                            </a>
+                        </a>
                     </li>
                     <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
                             class="block px-4 py-2 bg-[#496c38] text-white rounded-lg">item 4 Lorem, ipsum
-                            </a>
+                        </a>
                     </li>
                     <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
                             class="block px-4 py-2 bg-[#496c38] text-white rounded-lg">item 5 Lorem, ipsum
-                            </a>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -73,4 +73,6 @@
         </div>
     </nav>
 </body>
+<script src="../src/script.js"></script>
+
 </html>

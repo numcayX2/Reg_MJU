@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login - MJU</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+
+<body class="m-0 p-0 max-h-screen overflow-hidden">
+    <div class="grid grid-rows-1 min-h-screen w-screen md:grid-rows-0 md:grid-cols-2">
+        <div class="p-8 w-full m-auto">
+            <div class="p-4 max-w-md mx-auto">
+                <h1 class="text-3xl font-bold">ลงชื่อเข้าสู่ระบบ</h1>
+                <h2 class="text-gray-600 font-bold mb-2">สำหรับอาจารย์</h2>
+                <h2 class="mb-6 text-gray-400 font-semibold">(SSO)</h2>
+                <div>
+                    <!-- Email -->
+                    <div class="mb-4 mt-4 sm:mt-0">
+                        <label class="text-sm" style="color: #31572c; font-weight: 600;">E-mail (อีเมล)</label>
+                        <div class="relative">
+                            <input type="email" placeholder="teacher@email.com"
+                                class="w-full px-4 py-4 md:py-2 pr-10 border rounded focus:outline-none duration-300"
+                                style="border-color: #31572c; box-shadow: none;"
+                                onfocus="this.style.boxShadow='0 0 0 2px #31572c';"
+                                onblur="this.style.boxShadow='none';" required/>
+                            <i class="fa-solid fa-envelope absolute right-3 top-1/2 transform -translate-y-1/2"
+                                style="color: #31572c;"></i>
+                        </div>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="mb-6">
+                        <label class="text-sm" style="color: #31572c;">Password (รหัสผ่าน)</label>
+                        <div class="relative">
+                            <input type="password" placeholder="••••••••"
+                                class="w-full px-4 py-4 md:py-2 pr-10 border rounded focus:outline-none duration-300"
+                                style="border-color: #31572c; box-shadow: none;"
+                                onfocus="this.style.boxShadow='0 0 0 2px #31572c';"
+                                onblur="this.style.boxShadow='none';" required/>
+                            <i class="fa-solid fa-eye absolute right-3 top-1/2 transform -translate-y-1/2"
+                                style="color: #31572c;"></i>
+                        </div>
+                    </div>
+
+                    <!-- Login Button -->
+                    <a href="teacher_main.html"><button type="submit" class="w-full text-white py-4 rounded transition md:py-2 text-lg"
+                        style="background-color: #31572c;" onmouseover="this.style.backgroundColor='#22381b';"
+                        onmouseout="this.style.backgroundColor='#31572c';">เข้าสู่ระบบ</button></a>
+                    <p class="pt-4 text-blue-400 underline hover:text-blue-600 duration-200 w-fit">
+                        <a href="../student/login.html" class="max-w-fit">ลงชื่อเข้าใช้สำหรับนักศึกษา</a>
+                    </p>
+                </div>
+
+                <div class="my-6 flex items-center justify-between">
+                    <hr class="w-1/4 border-gray-300" />
+                    <span class="text-sm text-gray-400">หรือ ลงชื่อเข้าสู่ระบบโดย</span>
+                    <hr class="w-1/4 border-gray-300" />
+                </div>
+
+                <!-- Social Buttons -->
+                <div class="flex justify-around space-x-4">
+                    <div
+                        class="w-16 h-16 bg-white rounded flex items-center justify-center hover:scale-95 duration-200">
+                        <button
+                            class="rounded w-12 h-12 bg-[url(https://play-lh.googleusercontent.com/4_RoR8akdk3RZ5yDdQWfJcZh4VmevGRRopcJfDBV2lRz4TQwU825MvhCVJ0i84Hjgw)] bg-cover">
+                        </button>
+                    </div>
+                    <div
+                        class="w-16 h-16 bg-white rounded flex items-center justify-center hover:scale-95 duration-200">
+                        <button
+                            class="rounded w-12 h-12 bg-[url(https://play-lh.googleusercontent.com/jg2lAQET3kV_-6fhPQ_TcDyDItUdDcO7euuUNcANIn78_XJUmCtFBJzEdP3nG4_e2kM)] bg-cover">
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <a href="../index.html"
+                        class="inline-block px-4 py-2 rounded text-white font-semibold transition bg-red-400 hover:bg-red-600">
+                        &#8592; ย้อนกลับ
+                    </a>
+                </div>
+            </div>
+            <p class="text-center mt-8 text-gray-400">2024 - 2025 © Maejo University</p>
+        </div>
+        <div
+            class="p-8 border border-gray-300 bg-gray-200 hidden md:block bg-[url(https://www.mju.ac.th/th/images/bg_parallax-1600-resize.jpg)] bg-center bg-cover md:flex flex-col justify-center items-center">
+            <img src="https://upload.wikimedia.org/wikipedia/th/thumb/b/b7/MJU_LOGO.svg/270px-MJU_LOGO.svg.png"
+                alt="ตรามหาวิทยาลัยแม่โจ้" id="mju_logo"
+                class="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-contain mx-auto mb-8">
+            <p class="font-bold text-white text-center text-base sm:text-lg md:text-xl lg:text-2xl"
+                style="text-shadow: 2px 2px 8px rgba(0,0,0,0.9), 0 0 2px #000;">
+                มหาวิทยาลัยแม่โจ้ งานทะเบียนและสถิตินักศึกษา สำนักบริหารและพัฒนาวิชาการ
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

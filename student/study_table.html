@@ -37,25 +37,9 @@
                 class="absolute right-0 h-0 overflow-hidden transition-[height] duration-400 ease-out bg-[#025d0eaa] md:rounded-2xl backdrop-blur-sm mt-0 md:mt-4 border-0">
                 <ul
                     class="w-screen md:w-fit md:flex md:flex-col gap-2 p-8 text-center md:text-left grid grid-cols-1 sm:grid-cols-2">
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="../index.html"
-                            class="block px-4 py-2 bg-[#2b7947] text-white rounded-lg">หน้าหลัก
-                            </a>
-                    </li>
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
-                            class="block px-4 py-2 bg-[#7dd157] text-white rounded-lg">item 2 Lorem, ipsum
-                            </a>
-                    </li>
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
-                            class="block px-4 py-2 bg-[#025d0e] text-white rounded-lg">item 3 Lorem, ipsum
-                            </a>
-                    </li>
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
-                            class="block px-4 py-2 bg-[#496c38] text-white rounded-lg">item 4 Lorem, ipsum
-                            </a>
-                    </li>
-                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="#"
-                            class="block px-4 py-2 bg-[#496c38] text-white rounded-lg">item 5 Lorem, ipsum
-                            </a>
+                    <li class="fade-item opacity-0 transition-opacity duration-300"><a href="student_main.html"
+                            class="block px-4 py-2 bg-[#38c153] text-white rounded-lg w-[250px] transition-colors hover:bg-[#182b1e]">หน้าหลัก
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -74,22 +58,56 @@
             </button>
         </div>
     </nav>
-    <div class="container mx-auto overflow-x-auto h-fit">
+    <div class="container mx-auto px-12 overflow-x-auto h-fit">
         <!-- Blank space to push content below the header -->
         <div class="h-24 md:h-36"></div>
+        <!-- Personal Details -->
+        <div class="flow-root my-8">
+            <div class="w-full max-w-md mx-auto">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" alt="user profile"
+                    class="w-24 h-24 rounded-full mx-auto my-4">
+            </div>
+            <dl class="-my-3 divide-y divide-gray-200 text-sm *:even:bg-gray-50">
+                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900 text-base sm:text-lg">ชื่อ</dt>
+                    <dd class="text-gray-700 sm:col-span-2 text-sm sm:text-base">สุธารชัย ประดิษฐกูล</dd>
+                </div>
+
+                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900 text-base sm:text-lg">สถานภาพ</dt>
+                    <dd class="text-gray-700 sm:col-span-2 text-sm sm:text-base">กำลังศึกษา</dd>
+                </div>
+
+                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900 text-base sm:text-lg">คณะ</dt>
+                    <dd class="text-gray-700 sm:col-span-2 text-sm sm:text-base">วิทยาศาสตร์</dd>
+                </div>
+
+                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900 text-base sm:text-lg">หลักสูตร	</dt>
+                    <dd class="text-gray-700 sm:col-span-2 text-sm sm:text-base">วิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</dd>
+                </div>
+
+                <div class="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
+                    <dt class="font-medium text-gray-900 text-base sm:text-lg">อ. ที่ปรึกษา</dt>
+                    <dd class="text-gray-700 sm:col-span-2 text-sm sm:text-base">ผู้ช่วยศาสตราจารย์ ดร.สนิท สิทธิ</dd>
+                </div>
+            </dl>
+        </div>
+        <!-- Time Schedule Table -->
         <div class="overflow-x-scroll container mx-auto">
-            <table class="w-full bg-white">
+            <table class="w-full bg-white border-collapse">
                 <thead>
                     <tr class="bg-gray-100 text-left">
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white">Day/Time</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">8:00-9:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">9:00-10:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">10:00-11:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">11:00-12:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">12:00-13:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">13:00-14:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">14:00-15:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white" colspan="2">15:00-16:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border">Day/Time</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">8:00-9:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">9:00-10:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">10:00-11:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">11:00-12:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">12:00-13:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">13:00-14:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">14:00-15:00</th>
+                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">15:00-16:00</th>
                         <th class="px-4 py-6 border border-gray-300 text-nowrap bg-gray-500 text-white" colspan="2">
                             16:00-17:00</th>
                     </tr>
@@ -195,7 +213,7 @@
             </div>
         </div>
     </div>
-    <footer class="w-full bg-[#1e1e1e]">
+    <footer class="w-full bg-[#1e1e1e] pb-18 md:pb-0">
         <div
             class="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center p-4 px-4 md:px-6 lg:px-8 gap-6 md:gap-8 py-12">
             <!-- Left side part -->

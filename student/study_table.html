@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Time Schedule Table</title>
+    <title>ตารางเรียน</title>
     <link rel="stylesheet" href="../src/output.css">
     <link rel="stylesheet" href="../src/style.css">
 </head>
@@ -108,219 +108,402 @@
                 </div>
             </dl>
         </div>
-        <!-- Time Schedule Table -->
-        <h2 class="text-2xl font-bold text-gray-800 mb-4">: ตารางเรียนของรายวิชาที่ลงทะเบียนไว้แล้ว</h2>
-        <div class="overflow-x-scroll container mx-auto">
-            <table class="w-full bg-white border-collapse">
-                <thead>
-                    <tr class="bg-gray-100 text-left">
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border sticky left-0 z-20">Day/Time</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">8:00-9:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">9:00-10:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">10:00-11:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">11:00-12:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">12:00-13:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">13:00-14:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">14:00-15:00</th>
-                        <th class="px-4 py-6 text-nowrap bg-gray-500 text-white border" colspan="2">15:00-16:00</th>
-                        <th class="px-4 py-6 border border-gray-300 text-nowrap bg-gray-500 text-white" colspan="2">
-                            16:00-17:00</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="h-24">
-                        <td
-                            class="px-4 py-2 border border-gray-300 font-bold whitespace-nowrap bg-green-100 sticky left-0 z-10">
-                            จันทร์</td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="6">
-                            <div class="font-bold">10301231</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="4">
-                            <div class="font-bold">10301222</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="4"></td>
-                    </tr>
-                    <tr class="h-24">
-                        <td
-                            class="px-4 py-2 border border-gray-300 font-bold whitespace-nowrap bg-green-100 sticky left-0 z-10">
-                            อังคาร</td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="4">
-                            <div class="font-bold">10301231</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="4">
-                            <div class="font-bold">10700313</div>
-                            <div>(3) 2, 80-501</div>
-                            <div>147</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="3">
-                            <div class="font-bold">10301225</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="3">
-                            <div class="font-bold">10301211</div>
-                            <div>(3) 1, 3203</div>
-                            <div>141</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                    </tr>
-                    <tr class="h-24">
-                        <td
-                            class="px-4 py-2 border border-gray-300 font-bold whitespace-nowrap bg-green-100 sticky left-0 z-10">
-                            พุธ</td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="6">
-                            <div class="font-bold">10301225</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="10"></td>
-                    </tr>
-                    <tr class="h-24">
-                        <td
-                            class="px-4 py-2 border border-gray-300 font-bold whitespace-nowrap bg-green-100 sticky left-0 z-10">
-                            พฤหัสบดี</td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="6">
-                            <div class="font-bold">10301222</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="4">
-                            <div class="font-bold">10301223</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="4"></td>
-                    </tr>
-                    <tr class="h-24">
-                        <td
-                            class="px-4 py-2 border border-gray-300 font-bold whitespace-nowrap bg-green-100 sticky left-0 z-10">
-                            ศุกร์</td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="2">
-                            <div class="font-bold">10301211</div>
-                            <div>(3) 1, 3203</div>
-                            <div>141</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="4">
-                            <div class="font-bold">10700313</div>
-                            <div>(3) 2, 80-501</div>
-                            <div>147</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                        <td class="px-4 py-2 border border-gray-300 bg-blue-100 text-blue-700 text-center" colspan="6">
-                            <div class="font-bold">10301223</div>
-                            <div>(3) 1, Lab คอม3-4</div>
-                            <div>105</div>
-                        </td>
-                        <td class="px-4 py-2 border border-gray-300" colspan="2"></td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="mt-4 text-sm text-gray-700">
-                <span class="font-bold">*</span> ข้อมูลที่ปรากฏอยู่ในตารางเรียนประกอบด้วย รหัสวิชา (จำนวนหน่วยกิต)
-                กลุ่ม,
-                ห้องเรียนและอาคาร ตามลำดับ
+        <div class="container mx-auto max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">ตารางเรียนของรายวิชาที่ลงทะเบียนไว้แล้ว</h2>
+
+            <!-- Desktop/Tablet Schedule Table -->
+            <div class="hidden md:block">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <table class="table-fixed w-full border-collapse text-xs sm:text-sm md:text-base">
+                        <thead>
+                            <tr class="bg-gray-600 text-white text-sm text-center">
+                                <th class="border border-gray-400 font-semibold p-2 w-24">วัน/เวลา</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">8:00–9:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">9:00–10:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">10:00–11:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">11:00–12:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">12:00–13:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">13:00–14:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">14:00–15:00</th>
+                                <th class="border border-gray-400 font-semibold p-2" colspan="2">15:00–16:00</th>
+                            </tr>
+
+                            <!-- แถวแสดงเวลาแบบครึ่งชั่วโมง -->
+                            <tr class="bg-white text-white text-xs text-center">
+                                <th class="border border-gray-600 bg-gray-600 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                                <th class="border-2 border-r-orange-400 font-semibold p-2"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- จันทร์ -->
+                            <tr class="h-20">
+                                <td class="p-3 border border-gray-500 font-bold bg-green-100 text-center">จันทร์</td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs"
+                                    colspan="6">
+                                    <div class="font-bold">10301231</div>
+                                    <div>เว็บเทคโนโลยี</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs"
+                                    colspan="4">
+                                    <div class="font-bold">10301222</div>
+                                    <div>โครงสร้างข้อมูล</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                            </tr>
+
+                            <!-- อังคาร -->
+                            <tr class="h-20">
+                                <td class="p-3 border border-gray-500 font-bold bg-green-100 text-center">อังคาร</td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs"
+                                    colspan="4">
+                                    <div class="font-bold">10301231</div>
+                                    <div>เว็บเทคโนโลยี</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs"
+                                    colspan="4">
+                                    <div class="font-bold">10700313</div>
+                                    <div>ภาษาอังกฤษ</div>
+                                    <div>80-501</div>
+                                </td>
+                                <td class="border border-gray-500"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs"
+                                    colspan="4">
+                                    <div class="font-bold">10301225</div>
+                                    <div>วิศวกรรมซอฟต์แวร์</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs"
+                                    colspan="3">
+                                    <div class="font-bold">10301211</div>
+                                    <div>คณิตศาสตร์</div>
+                                    <div>3203</div>
+                                </td>
+                            </tr>
+
+                            <!-- พุธ -->
+                            <tr class="h-20">
+                                <td class="p-3 border border-gray-500 font-bold bg-green-100 text-center">พุธ</td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs" colspan="6">
+                                    <div class="font-bold">10301225</div>
+                                    <div>วิศวกรรมซอฟต์แวร์</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="border border-gray-500" colspan="8"></td>
+                            </tr>
+
+                            <!-- พฤหัสบดี -->
+                            <tr class="h-20">
+                                <td class="p-3 border border-gray-500 font-bold bg-green-100 text-center">พฤหัสบดี</td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs" colspan="6">
+                                    <div class="font-bold">10301222</div>
+                                    <div>โครงสร้างข้อมูล</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs" colspan="4">
+                                    <div class="font-bold">10301223</div>
+                                    <div>ฐานข้อมูล</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                            </tr>
+
+                            <!-- ศุกร์ -->
+                            <tr class="h-20">
+                                <td class="p-3 border border-gray-500 font-bold bg-green-100 text-center">ศุกร์</td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs" colspan="2">
+                                    <div class="font-bold">10301211</div>
+                                    <div>คณิตศาสตร์</div>
+                                    <div>3203</div>
+                                </td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs" colspan="4">
+                                    <div class="font-bold">10700313</div>
+                                    <div>ภาษาอังกฤษ</div>
+                                    <div>80-501</div>
+                                </td>
+                                <td class="border border-gray-500" colspan="2"></td>
+                                <td class="p-2 border border-gray-500 bg-blue-100 text-blue-700 text-center text-xs" colspan="6">
+                                    <div class="font-bold">10301223</div>
+                                    <div>ฐานข้อมูล</div>
+                                    <div>Lab คอม3-4</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <!-- Test date table -->
-        <div class="mt-8 mb-12">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">: ตารางสอบ</h2>
 
-            <div class="overflow-x-auto">
-                <table class="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
-                    <thead class="ltr:text-left rtl:text-right">
-                        <tr>
-                            <th class="px-3 py-2 whitespace-nowrap font-medium text-gray-900 sticky left-0 bg-gray-300">
-                                รหัสวิชา</th>
-                            <th class="px-3 py-2 whitespace-nowrap font-medium text-gray-900">ชื่อรายวิชา</th>
-                            <th class="px-3 py-2 whitespace-nowrap font-medium text-gray-900">กลุ่ม</th>
-                            <th class="px-3 py-2 whitespace-nowrap font-medium text-gray-900">สอบกลางภาค</th>
-                            <th class="px-3 py-2 whitespace-nowrap font-medium text-gray-900">สอบปลายภาค</th>
-                        </tr>
-                    </thead>
+            <!-- Mobile Schedule Cards -->
+            <div class="md:hidden space-y-4">
+                <!-- จันทร์ -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg text-green-700 mb-3">จันทร์</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301231 - เว็บเทคโนโลยี</div>
+                            <div class="text-sm text-gray-600">เวลา: 9:00-12:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301222 - โครงสร้างข้อมูลและอัลกอริทึม</div>
+                            <div class="text-sm text-gray-600">เวลา: 13:00-15:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                    </div>
+                </div>
 
-                    <tbody class="divide-y divide-gray-200">
-                        <tr class="even:bg-gray-50">
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900 font-medium sticky left-0 bg-blue-100">
-                                10301211</td>
-                            <td class="px-3 py-2 text-gray-900">คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์ <br> Mathematics for
-                                Computer Science</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">1</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">(C) 22 ส.ค. 2568 เวลา 08:00-11:00 <br>
-                                N/A
-                            </td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                        </tr>
+                <!-- อังคาร -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg text-green-700 mb-3">อังคาร</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301231 - เว็บเทคโนโลยี</div>
+                            <div class="text-sm text-gray-600">เวลา: 8:00-10:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10700313 - ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม</div>
+                            <div class="text-sm text-gray-600">เวลา: 10:00-12:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: 80-501 (147)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301225 - วิศวกรรมซอฟต์แวร์</div>
+                            <div class="text-sm text-gray-600">เวลา: 13:00-14:30</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301211 - คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์</div>
+                            <div class="text-sm text-gray-600">เวลา: 14:30-16:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: 3203 (141)</div>
+                        </div>
+                    </div>
+                </div>
 
-                        <tr class="even:bg-gray-50">
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900 font-medium sticky left-0 bg-blue-100">
-                                10301222</td>
-                            <td class="px-3 py-2 text-gray-900">โครงสร้างข้อมูลและอัลกอริทึม <br> Data Structure and
-                                Algorithm</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">1</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">(C) 18 ส.ค. 2568 เวลา 12:00-15:00 <br>
-                                N/A
-                            </td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                        </tr>
+                <!-- พุธ -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg text-green-700 mb-3">พุธ</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301225 - วิศวกรรมซอฟต์แวร์</div>
+                            <div class="text-sm text-gray-600">เวลา: 9:00-12:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                    </div>
+                </div>
 
-                        <tr class="even:bg-gray-50">
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900 font-medium sticky left-0 bg-blue-100">
-                                10301223</td>
-                            <td class="px-3 py-2 text-gray-900">ฐานข้อมูลโครงสร้างเชิงสัมพันธ์ <br> Structure Relational
-                                Database</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">1</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">(C) 20 ส.ค. 2568 เวลา 15:30-18:30 <br>
-                                N/A
-                            </td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                        </tr>
+                <!-- พฤหัสบดี -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg text-green-700 mb-3">พฤหัสบดี</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301222 - โครงสร้างข้อมูลและอัลกอริทึม</div>
+                            <div class="text-sm text-gray-600">เวลา: 9:00-12:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301223 - ฐานข้อมูลโครงสร้างเชิงสัมพันธ์</div>
+                            <div class="text-sm text-gray-600">เวลา: 13:00-15:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                    </div>
+                </div>
 
-                        <tr class="even:bg-gray-50">
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900 font-medium sticky left-0 bg-blue-100">
-                                10301225</td>
-                            <td class="px-3 py-2 text-gray-900">วิศวกรรมซอฟต์แวร์ <br> Software Engineering</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">1</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                        </tr>
-
-                        <tr class="even:bg-gray-50">
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900 font-medium sticky left-0 bg-blue-100">
-                                10301231</td>
-                            <td class="px-3 py-2 text-gray-900">เว็บเทคโนโลยี <br> Web Technology</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">1</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                        </tr>
-
-                        <tr class="even:bg-gray-50">
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900 font-medium sticky left-0 bg-blue-100">
-                                10700313</td>
-                            <td class="px-3 py-2 text-gray-900">ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม <br> English for
-                                Science and Innovation</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">2</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                            <td class="px-3 py-2 whitespace-nowrap text-gray-900">-</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <!-- ศุกร์ -->
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg text-green-700 mb-3">ศุกร์</h3>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301211 - คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์</div>
+                            <div class="text-sm text-gray-600">เวลา: 9:00-10:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: 3203 (141)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10700313 - ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม</div>
+                            <div class="text-sm text-gray-600">เวลา: 10:00-12:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: 80-501 (147)</div>
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="font-bold text-blue-700">10301223 - ฐานข้อมูลโครงสร้างเชิงสัมพันธ์</div>
+                            <div class="text-sm text-gray-600">เวลา: 13:00-16:00</div>
+                            <div class="text-sm text-gray-600">ห้อง: Lab คอม3-4 (105)</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="mt-4 text-xs sm:text-sm text-gray-700">
-                **หมายเหตุ**: C = Lecture L = Lab R = ประชุม S = Self Study T = ติว
-            </p>
+
+            <!-- หมายเหตุ -->
+            <div class="mt-6 bg-white rounded-lg shadow-md p-4">
+                <p class="text-sm text-gray-700">
+                    <span class="font-bold">*</span> ข้อมูลที่ปรากฏอยู่ในตารางเรียนประกอบด้วย รหัสวิชา (จำนวนหน่วยกิต)
+                    กลุ่ม, ห้องเรียนและอาคาร ตามลำดับ
+                </p>
+            </div>
+
+            <!-- ตารางสอบ -->
+            <div class="mt-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">ตารางสอบ</h2>
+
+                <!-- Desktop Exam Table -->
+                <div class="hidden md:block bg-white rounded-lg shadow-md overflow-hidden">
+                    <table class="w-full">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-medium text-gray-900">รหัสวิชา</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-900">ชื่อรายวิชา</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-900">กลุ่ม</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-900">สอบกลางภาค</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-900">สอบปลายภาค</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-gray-900">10301211</td>
+                                <td class="px-4 py-3 text-gray-900">คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์<br><span
+                                        class="text-sm text-gray-600">Mathematics for Computer Science</span></td>
+                                <td class="px-4 py-3 text-gray-900">1</td>
+                                <td class="px-4 py-3 text-gray-900">22 ส.ค. 2568<br>เวลา 08:00-11:00</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-gray-900">10301222</td>
+                                <td class="px-4 py-3 text-gray-900">โครงสร้างข้อมูลและอัลกอริทึม<br><span
+                                        class="text-sm text-gray-600">Data Structure and Algorithm</span></td>
+                                <td class="px-4 py-3 text-gray-900">1</td>
+                                <td class="px-4 py-3 text-gray-900">18 ส.ค. 2568<br>เวลา 12:00-15:00</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-gray-900">10301223</td>
+                                <td class="px-4 py-3 text-gray-900">ฐานข้อมูลโครงสร้างเชิงสัมพันธ์<br><span
+                                        class="text-sm text-gray-600">Structure Relational Database</span></td>
+                                <td class="px-4 py-3 text-gray-900">1</td>
+                                <td class="px-4 py-3 text-gray-900">20 ส.ค. 2568<br>เวลา 15:30-18:30</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-gray-900">10301225</td>
+                                <td class="px-4 py-3 text-gray-900">วิศวกรรมซอฟต์แวร์<br><span
+                                        class="text-sm text-gray-600">Software Engineering</span></td>
+                                <td class="px-4 py-3 text-gray-900">1</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-gray-900">10301231</td>
+                                <td class="px-4 py-3 text-gray-900">เว็บเทคโนโลยี<br><span
+                                        class="text-sm text-gray-600">Web Technology</span></td>
+                                <td class="px-4 py-3 text-gray-900">1</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-gray-900">10700313</td>
+                                <td class="px-4 py-3 text-gray-900">ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม<br><span
+                                        class="text-sm text-gray-600">English for Science and Innovation</span></td>
+                                <td class="px-4 py-3 text-gray-900">2</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                                <td class="px-4 py-3 text-gray-900">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Mobile Exam Cards -->
+                <div class="md:hidden space-y-4">
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="font-bold text-lg text-gray-800 mb-2">10301211</div>
+                        <div class="text-gray-700 mb-2">คณิตศาสตร์สำหรับวิทยาการคอมพิวเตอร์</div>
+                        <div class="text-sm text-gray-600 mb-2">Mathematics for Computer Science</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div><span class="font-medium">กลุ่ม:</span> 1</div>
+                            <div><span class="font-medium">สอบกลางภาค:</span> 22 ส.ค. 2568 08:00-11:00</div>
+                            <div><span class="font-medium">สอบปลายภาค:</span> -</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="font-bold text-lg text-gray-800 mb-2">10301222</div>
+                        <div class="text-gray-700 mb-2">โครงสร้างข้อมูลและอัลกอริทึม</div>
+                        <div class="text-sm text-gray-600 mb-2">Data Structure and Algorithm</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div><span class="font-medium">กลุ่ม:</span> 1</div>
+                            <div><span class="font-medium">สอบกลางภาค:</span> 18 ส.ค. 2568 12:00-15:00</div>
+                            <div><span class="font-medium">สอบปลายภาค:</span> -</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="font-bold text-lg text-gray-800 mb-2">10301223</div>
+                        <div class="text-gray-700 mb-2">ฐานข้อมูลโครงสร้างเชิงสัมพันธ์</div>
+                        <div class="text-sm text-gray-600 mb-2">Structure Relational Database</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div><span class="font-medium">กลุ่ม:</span> 1</div>
+                            <div><span class="font-medium">สอบกลางภาค:</span> 20 ส.ค. 2568 15:30-18:30</div>
+                            <div><span class="font-medium">สอบปลายภาค:</span> -</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="font-bold text-lg text-gray-800 mb-2">10301225</div>
+                        <div class="text-gray-700 mb-2">วิศวกรรมซอฟต์แวร์</div>
+                        <div class="text-sm text-gray-600 mb-2">Software Engineering</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div><span class="font-medium">กลุ่ม:</span> 1</div>
+                            <div><span class="font-medium">สอบกลางภาค:</span> -</div>
+                            <div><span class="font-medium">สอบปลายภาค:</span> -</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="font-bold text-lg text-gray-800 mb-2">10301231</div>
+                        <div class="text-gray-700 mb-2">เว็บเทคโนโลยี</div>
+                        <div class="text-sm text-gray-600 mb-2">Web Technology</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div><span class="font-medium">กลุ่ม:</span> 1</div>
+                            <div><span class="font-medium">สอบกลางภาค:</span> -</div>
+                            <div><span class="font-medium">สอบปลายภาค:</span> -</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="font-bold text-lg text-gray-800 mb-2">10700313</div>
+                        <div class="text-gray-700 mb-2">ภาษาอังกฤษเชิงวิทยาศาสตร์และนวัตกรรม</div>
+                        <div class="text-sm text-gray-600 mb-2">English for Science and Innovation</div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div><span class="font-medium">กลุ่ม:</span> 2</div>
+                            <div><span class="font-medium">สอบกลางภาค:</span> -</div>
+                            <div><span class="font-medium">สอบปลายภาค:</span> -</div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="mt-4 text-xs sm:text-sm text-gray-700">
+                    <span class="font-bold">**หมายเหตุ**:</span> C = Lecture L = Lab R = ประชุม S = Self Study T = ติว
+                </p>
+            </div>
         </div>
     </div>
     <footer class="w-full bg-[#1e1e1e] pb-18 md:pb-0">
@@ -343,7 +526,8 @@
             <!-- Right side part -->
             <div class="flex flex-col space-y-2 md:space-y-3 text-left md:text-right w-full md:w-auto mt-4 md:mt-0">
                 <p class="text-[#cccccc] text-sm md:text-base">Powered by CSMJU_students</p>
-                <p class="text-[#cccccc] text-sm md:text-base break-words">Contact Staff : กลุ่มภารกิจทะเบียนเรียน
+                <p class="text-[#cccccc] text-sm md:text-base break-words">Contact Staff :
+                    กลุ่มภารกิจทะเบียนเรียน
                     ประมวลผล และรับเข้า 0-5387-3458</p>
             </div>
         </div>
